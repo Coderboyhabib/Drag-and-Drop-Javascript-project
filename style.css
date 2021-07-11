@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+    background-color: orange;
+}
+
+.drag_ariya {
+    border: 2px dashed #fff;
+    height: 400px;
+    width: 600px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.drag_ariya.active {
+    border: 2px solid #fff;
+}
+
+.drag_ariya img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.drag_ariya .icon {
+    font-size: 70px;
+    color: #fff;
+}
+
+.drag_ariya header {
+    font-size: 27px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.drag_ariya span {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    margin: 10px 0 15px 0;
+}
+
+.drag_ariya button {
+    padding: 10px 25px;
+    font-size: 19px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: orange;
+    border-radius: 5px;
+    cursor: pointer;
+}
